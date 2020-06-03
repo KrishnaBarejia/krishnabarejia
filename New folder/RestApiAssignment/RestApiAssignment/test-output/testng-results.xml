@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35025" started-at="2020-06-03T04:21:29Z" finished-at="2020-06-03T04:22:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35025" started-at="2020-06-03T04:21:29Z" finished-at="2020-06-03T04:22:04Z">
+      <class name="com.api.assignment.TestMoviesUpcoming">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.assignment.TestMoviesUpcoming@4883b407]" name="setUp" is-config="true" duration-ms="15500" started-at="2020-06-03T04:21:29Z" finished-at="2020-06-03T04:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateMovieLanguage()[pri:0, instance:com.api.assignment.TestMoviesUpcoming@4883b407]" name="validateMovieLanguage" duration-ms="14528" started-at="2020-06-03T04:21:45Z" finished-at="2020-06-03T04:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMovieLanguage -->
+        <test-method status="PASS" signature="validateMoviePromoCodeIsUnique()[pri:0, instance:com.api.assignment.TestMoviesUpcoming@4883b407]" name="validateMoviePromoCodeIsUnique" duration-ms="208" started-at="2020-06-03T04:21:59Z" finished-at="2020-06-03T04:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMoviePromoCodeIsUnique -->
+        <test-method status="PASS" signature="validateMovieReleaseDate()[pri:0, instance:com.api.assignment.TestMoviesUpcoming@4883b407]" name="validateMovieReleaseDate" duration-ms="206" started-at="2020-06-03T04:21:59Z" finished-at="2020-06-03T04:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMovieReleaseDate -->
+        <test-method status="PASS" signature="validateMovieURL()[pri:0, instance:com.api.assignment.TestMoviesUpcoming@4883b407]" name="validateMovieURL" duration-ms="132" started-at="2020-06-03T04:22:00Z" finished-at="2020-06-03T04:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMovieURL -->
+        <test-method status="PASS" signature="validateStatusCode()[pri:0, instance:com.api.assignment.TestMoviesUpcoming@4883b407]" name="validateStatusCode" duration-ms="19" started-at="2020-06-03T04:22:00Z" finished-at="2020-06-03T04:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode -->
+        <test-method status="PASS" signature="writeMovieNamesToExcelSheet()[pri:0, instance:com.api.assignment.TestMoviesUpcoming@4883b407]" name="writeMovieNamesToExcelSheet" duration-ms="4177" started-at="2020-06-03T04:22:00Z" finished-at="2020-06-03T04:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMovieNamesToExcelSheet -->
+      </class> <!-- com.api.assignment.TestMoviesUpcoming -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
